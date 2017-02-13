@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdataset>
+	<method name="testLoadHiveData">
+		<table name="employee">
+			<column>employeename|age</column>
+			<row>Mathew|40</row>
+			<row>John|40</row>
+		</table>
+		<table name="address">
+			<column>employeename|streetname</column>
+			<row>Mathew|pala</row>
+			<row>John|kottayam</row>
+		</table>
+		<table name="role">
+			<column>employeename|rolename</column>
+			<row>Mathew|admin</row>
+			<row>John|admin</row>
+		</table>
+		<input>
+			<value>
+			</value>
+		</input>
+		<expected>
+			<value>Mathew|pala|admin</value>
+		</expected>
+	</method>
+</testdataset>

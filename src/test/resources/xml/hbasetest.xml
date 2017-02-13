@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdataset>
+	<method name="testInsertDataToHBase">
+		<table name="TEST_TABLE">
+			<column>student_name|student_organization|student_type</column>
+			<row>Hary|Organization1|college</row>
+		</table>
+		<input>
+			<value>
+			</value>
+		</input>
+		<expected>
+			<value>Hary</value>
+		</expected>
+	</method>
+</testdataset>
